@@ -31,8 +31,6 @@ by a child template that "extends" this file.
     -->
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-    <uses-permission-sdk-m android:name="android.permission.BLUETOOTH"/>
-    <uses-permission-sdk-m android:name="android.permission.BLUETOOTH_ADMIN"/>
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />

@@ -5,15 +5,17 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
 
-    enforceUniquePackageName false
+    //enforceUniquePackageName false
 
     defaultConfig {
         applicationId "org.chromium.chrome.browser"
         minSdkVersion 19
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
+
+        vectorDrawables.useSupportLibrary = true
     }
 
     signingConfigs {
